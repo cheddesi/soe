@@ -1,5 +1,5 @@
 FROM amazonlinux:latest
-MAINTAINER MyTollTeam
+MAINTAINER Siva Chedde (cheddesi@gmail.com)
 ENV REFRESHED_AT 2017-08-07
 
 #Install wget
