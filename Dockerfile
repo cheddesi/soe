@@ -12,6 +12,7 @@ RUN update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_144/b
 RUN update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.8.0_144/bin/javac 100
 ENV JAVA_HOME /usr/lib/jvm/jdk1.8.0_144
 #RUN export PATH=$PATH:$JAVA_HOME/bin
+RUN rm jdk-8u144-linux-x64.tar.gz
 
 #This volume is meant to be a readonly place holder for all configuration files of the application. 
 VOLUME /config
